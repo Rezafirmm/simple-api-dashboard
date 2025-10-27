@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مدیریت کاربران</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>👥 مدیریت کاربران</h1>
+
+    <form id="userForm">
+      <input type="text" id="name" placeholder="نام کاربر" required />
+      <input type="email" id="email" placeholder="ایمیل کاربر" required />
+      <button type="submit"><i class="fa fa-plus"></i> افزودن</button>
+    </form>
+
+    <input type="text" id="search" placeholder="🔍 جستجوی کاربر..." />
+
+    <ul id="userList"></ul>
+  </div>
+
+  <div id="loader" class="loader">در حال بارگذاری...</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
